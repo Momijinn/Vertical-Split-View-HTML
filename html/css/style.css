@@ -1,0 +1,73 @@
+/* View関係 */
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.column{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.LeftView{
+    background: url(../image/back.jpg) no-repeat top center;
+
+    font-family: serif;
+    font-size: 7rem;
+}
+
+.RigthView{
+    /* background: blue no-repeat top center; */
+    background-color: #ef7b0e;
+
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+@media all and (min-width: 500px) {
+    .wrapper {
+        display: flex;
+    }
+}
+
+
+
+/* Imageの設定 */
+img{
+    width: 30%;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+
+
+/* ページジャンプの設定 */
+a {
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+
+/* 各種細々した設定 */
+#myname{
+    color: #a31f24;
+}
+
+#logo{
+    color: #334a2e;
+    font-family: 'Capriola', serif;
+}
