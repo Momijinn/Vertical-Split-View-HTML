@@ -6,7 +6,9 @@ Vertical-Split-View-HTML
 Webアプリにて表示時に画面を二分割して表示を行うサンプルプログラム
 
 ## Demo
-URL:
+[デモページ](http://htmlpreview.github.io/?https://github.com/Momijinn/Vertical-Split-View-HTML/blob/master/html/index.html)
+
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/13119897/41476604-081373aa-70fd-11e8-8375-017d138535fc.PNG">
 
 ## Usage
 index.htmlをクリックする
